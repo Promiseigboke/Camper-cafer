@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: lorafont;
+    src: url(my-fonts/lora/Lora-Regular.ttf);
+}
+.lorafont {
+    font-family: lorafont;
+}
+@font-face {
+    font-family: stripedisco;
+    src: url(my-fonts/stripedisco.ttf);
+}
+.stripedisco {
+    font-family: stripedisco;
+}
+@font-face {
+    font-family: thekings;
+    src: url(my-fonts/thekings-regular.ttf)
+}
+.thekings {
+    font-family: thekings;
+}
+.popular-hr:hover {
+    border-color: #C79C41; /* Change the border color on hover */
+  }
