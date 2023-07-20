@@ -563,6 +563,14 @@ video {
   margin-top: -2rem;
 }
 
+.-mt-\[2\.8rem\] {
+  margin-top: -2.8rem;
+}
+
+.-mt-\[3\.3rem\] {
+  margin-top: -3.3rem;
+}
+
 .-mt-\[5rem\] {
   margin-top: -5rem;
 }
@@ -671,40 +679,16 @@ video {
   margin-top: 2rem;
 }
 
-.-mt-\[2rem\] {
-  margin-top: -2rem;
+.-mt-\[3\.3\] {
+  margin-top: -3.3;
 }
 
-.-mt-\[3rem\] {
-  margin-top: -3rem;
+.-mt-\[1rem\] {
+  margin-top: -1rem;
 }
 
-.-mt-\[33rem\] {
-  margin-top: -33rem;
-}
-
-.-mt-\[2\.5rem\] {
-  margin-top: -2.5rem;
-}
-
-.-mt-\[2\.8rem\] {
-  margin-top: -2.8rem;
-}
-
-.-mt-\[3\.2rem\] {
-  margin-top: -3.2rem;
-}
-
-.-mt-\[2\.6rem\] {
-  margin-top: -2.6rem;
-}
-
-.-mt-\[2\.7rem\] {
-  margin-top: -2.7rem;
-}
-
-.-mt-\[3\.3rem\] {
-  margin-top: -3.3rem;
+.-mt-\[4rem\] {
+  margin-top: -4rem;
 }
 
 .inline-block {
@@ -739,8 +723,8 @@ video {
   height: 1.4rem;
 }
 
-.h-\[10rem\] {
-  height: 10rem;
+.h-\[11rem\] {
+  height: 11rem;
 }
 
 .h-\[12vh\] {
@@ -749,6 +733,10 @@ video {
 
 .h-\[14\.1rem\] {
   height: 14.1rem;
+}
+
+.h-\[2\.8rem\] {
+  height: 2.8rem;
 }
 
 .h-\[3rem\] {
@@ -775,58 +763,6 @@ video {
   height: auto;
 }
 
-.h-\[rem\] {
-  height: rem;
-}
-
-.h-\[2rem\] {
-  height: 2rem;
-}
-
-.h-\[11rem\] {
-  height: 11rem;
-}
-
-.h-\[2\.5rem\] {
-  height: 2.5rem;
-}
-
-.h-\[2\.8rem\] {
-  height: 2.8rem;
-}
-
-.h-\[2\.6rem\] {
-  height: 2.6rem;
-}
-
-.h-\[2\.55rem\] {
-  height: 2.55rem;
-}
-
-.h-\[2\.58rem\] {
-  height: 2.58rem;
-}
-
-.h-\[2\.59rem\] {
-  height: 2.59rem;
-}
-
-.h-\[2\.599999rem\] {
-  height: 2.599999rem;
-}
-
-.h-\[2\.7rem\] {
-  height: 2.7rem;
-}
-
-.h-\[1rem\] {
-  height: 1rem;
-}
-
-.h-\[111rem\] {
-  height: 111rem;
-}
-
 .w-16 {
   width: 4rem;
 }
@@ -841,6 +777,10 @@ video {
 
 .w-\[10rem\] {
   width: 10rem;
+}
+
+.w-\[11rem\] {
+  width: 11rem;
 }
 
 .w-\[15rem\] {
@@ -899,48 +839,16 @@ video {
   width: 100%;
 }
 
-.w-\[rem\] {
-  width: rem;
-}
-
-.w-\[1rem\] {
-  width: 1rem;
-}
-
-.w-\[9rem\] {
-  width: 9rem;
-}
-
 .w-\[\] {
   width: ;
 }
 
-.w-\[20rem\] {
-  width: 20rem;
-}
-
-.w-\[30rem\] {
-  width: 30rem;
-}
-
-.w-\[12rem\] {
-  width: 12rem;
-}
-
-.w-\[11rem\] {
-  width: 11rem;
+.min-w-\[10rem\] {
+  min-width: 10rem;
 }
 
 .min-w-\[59rem\] {
   min-width: 59rem;
-}
-
-.min-w-\[30rem\] {
-  min-width: 30rem;
-}
-
-.min-w-\[10rem\] {
-  min-width: 10rem;
 }
 
 .max-w-\[60rem\] {
@@ -1004,21 +912,12 @@ video {
   border-bottom-width: 0.9rem;
 }
 
-.border-y-\[1rem\] {
-  border-top-width: 1rem;
-  border-bottom-width: 1rem;
+.border-b-\[2rem\] {
+  border-bottom-width: 2rem;
 }
 
 .border-t-\[0\.5rem\] {
   border-top-width: 0.5rem;
-}
-
-.border-b-\[1rem\] {
-  border-bottom-width: 1rem;
-}
-
-.border-b-\[2rem\] {
-  border-bottom-width: 2rem;
 }
 
 .border-solid {
@@ -1033,10 +932,6 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-b-\[rem\] {
-  border-bottom-color: rem;
 }
 
 .bg-\[\#282726\] {
@@ -1064,6 +959,10 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1088,14 +987,6 @@ video {
 
 .pt-\[3rem\] {
   padding-top: 3rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
 }
 
 .text-center {
@@ -1130,6 +1021,10 @@ video {
   font-size: 0.87rem;
 }
 
+.text-\[0\.95rem\] {
+  font-size: 0.95rem;
+}
+
 .text-\[1\.7rem\] {
   font-size: 1.7rem;
 }
@@ -1151,30 +1046,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[1rem\] {
-  font-size: 1rem;
-}
-
-.text-\[0\.2rem\] {
-  font-size: 0.2rem;
-}
-
-.text-\[0\.7rem\] {
-  font-size: 0.7rem;
-}
-
-.text-\[0\.9rem\] {
-  font-size: 0.9rem;
-}
-
-.text-\[0\.9555rem\] {
-  font-size: 0.9555rem;
-}
-
-.text-\[0\.95rem\] {
-  font-size: 0.95rem;
 }
 
 .font-medium {
@@ -1209,14 +1080,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[rem\] {
-  color: rem;
-}
-
-.text-\[0\.rem\] {
-  color: 0.rem;
 }
 
 .opacity-0 {
