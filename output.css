@@ -841,9 +841,34 @@ video {
   border-width: 0.1555555rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-\[3rem\] {
+  border-width: 3rem;
+}
+
+.border-\[1rem\] {
+  border-width: 1rem;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
 .border-\[\#AFAFAF\] {
   --tw-border-opacity: 1;
   border-color: rgb(175 175 175 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[\] {
+  border-color: ;
 }
 
 .bg-\[\#282726\] {
@@ -1012,6 +1037,38 @@ video {
   font-family: thekings;
 }
 
+/* Hover styles for a1, hr, and b1 */
+
+.group:hover #a1,
+/* for americano cappuccino mocha divisions*/
+.group:hover hr,
+.group:hover #b1 {
+  color: #C79C41;
+  /* Change the text color on hover */
+  border-color: #C79C41;
+  /* Change the border color on hover */
+}
+
+/* Hover styles for c1, hr, and d1 */
+
+.group:hover #c1,
+.group:hover #d1 {
+  color: #C79C41;
+  /* Change the text color on hover */
+  border-color: #C79C41;
+  /* Change the border color on hover */
+}
+
+/* Hover styles for e1, hr, and f1 */
+
+.group:hover #e1,
+.group:hover #f1 {
+  color: #C79C41;
+  /* Change the text color on hover */
+  border-color: #C79C41;
+  /* Change the border color on hover */
+}
+
 .hover\:border-\[\#C79C41\]:hover {
   --tw-border-opacity: 1;
   border-color: rgb(199 156 65 / var(--tw-border-opacity));
@@ -1025,4 +1082,3 @@ video {
 .hover\:opacity-100:hover {
   opacity: 1;
 }
-

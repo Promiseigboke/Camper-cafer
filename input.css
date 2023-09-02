@@ -24,4 +24,23 @@
 .thekings {
     font-family: thekings;
 }
-
+/* Hover styles for a1, hr, and b1 */
+.group:hover #a1,
+/* for americano cappuccino mocha divisions*/
+.group:hover hr,
+.group:hover #b1 {
+    color: #C79C41; /* Change the text color on hover */
+    border-color: #C79C41; /* Change the border color on hover */
+}
+/* Hover styles for c1, hr, and d1 */
+.group:hover #c1,
+.group:hover #d1 {
+    color: #C79C41; /* Change the text color on hover */
+    border-color: #C79C41; /* Change the border color on hover */
+}
+/* Hover styles for e1, hr, and f1 */
+.group:hover #e1,
+.group:hover #f1 {
+    color: #C79C41; /* Change the text color on hover */
+    border-color: #C79C41; /* Change the border color on hover */
+}
