@@ -49,3 +49,7 @@
     color: #C79C41; /* Change the text color on hover */
     border-color: #C79C41; /* Change the border color on hover */
 }
+.custom-list-color li::before {
+    color: red; /* Change this to your desired color */
+    /* You can also add more styles like font-size, font-weight, etc. */
+}
