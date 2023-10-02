@@ -886,10 +886,6 @@ video {
   max-width: 60rem;
 }
 
-.list-decimal {
-  list-style-type: decimal;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1209,10 +1205,35 @@ video {
   /* Change the border color on hover */
 }
 
-.custom-list-color li::before {
-  color: red;
+/* Define the color for the list-style-type and sequential numbering */
+
+ol.custom-list-color {
+  list-style-type: none;
+  counter-reset: custom-counter;
+  /* Reset the counter */
+  padding-left: 0;
+}
+
+/* Color for the list content and display the sequential number */
+
+ol.custom-list-color li {
+  position: relative;
+  padding-left: 20px;
+  /* Adjust the padding as needed */
+  color: #000000;
   /* Change this to your desired color */
-  /* You can also add more styles like font-size, font-weight, etc. */
+}
+
+/* Define the color for the list-style-type marker and display the sequential number */
+
+ol.custom-list-color li::before {
+  content: counter(custom-counter);
+  /* Use counters to generate numbers */
+  counter-increment: custom-counter;
+  position: absolute;
+  left: 0;
+  color: #FF0000;
+  /* Change this to your desired color */
 }
 
 .hover\:border-\[\#C79C41\]:hover {
@@ -1243,3 +1264,4 @@ video {
 .hover\:opacity-100:hover {
   opacity: 1;
 }
+  
