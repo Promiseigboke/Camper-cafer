@@ -65,10 +65,11 @@ ol.custom-list-color {
   
   /* Define the color for the list-style-type marker and display the sequential number */
   ol.custom-list-color li::before {
-    content: counter(custom-counter); /* Use counters to generate numbers */
+    content: counter(custom-counter) "."; /* Use counters to generate numbers */
     counter-increment: custom-counter;
     position: absolute;
     left: 0;
-    color: #FF0000; /* Change this to your desired color */
+    color: #C79C60; /* Color of the custom counter marker */
+    font-weight: bold;
   }
   
