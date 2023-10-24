@@ -23,11 +23,18 @@
     font-family: stripedisco;
 }
 @font-face {
-    font-family: thekings;
-    src: url(my-fonts/thekings-regular.ttf)
+    font-family: odin;
+    src: url(my-fonts/odin\ rounded\ -\ bold.otf);
 }
-.thekings {
-    font-family: thekings;
+.odin {
+    font-family: odin;
+}
+@font-face {
+    font-family: greatcamp;
+    src: url(my-fonts/greatcamp.ttf);
+}
+.greatcamp {
+    font-family: greatcamp;
 }
 /* Hover styles for a1, hr, and b1 */
 .group:hover #a1,
@@ -72,4 +79,4 @@ ol.custom-list-color {
     color: #C79C60; /* Color of the custom counter marker */
     font-weight: bold;
   }
-  
+ 
