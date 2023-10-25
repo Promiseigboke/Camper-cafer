@@ -8,33 +8,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
-    font-family: lorafont;
-    src: url(my-fonts/lora/Lora-Regular.ttf);
+    font-family: awesome;
+    src: url(my-fonts/mf_really_awesome/Mf\ Really\ Awesome.ttf);
 }
-.lorafont {
-    font-family: lorafont;
-}
-@font-face {
-    font-family: stripedisco;
-    src: url(my-fonts/stripedisco.ttf);
-}
-.stripedisco {
-    font-family: stripedisco;
-}
-@font-face {
-    font-family: odin;
-    src: url(my-fonts/odin\ rounded\ -\ bold.otf);
-}
-.odin {
-    font-family: odin;
-}
-@font-face {
-    font-family: greatcamp;
-    src: url(my-fonts/greatcamp.ttf);
-}
-.greatcamp {
-    font-family: greatcamp;
+.awesome {
+    font-family: awesome;
 }
 /* Hover styles for a1, hr, and b1 */
 .group:hover #a1,

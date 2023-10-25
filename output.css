@@ -882,8 +882,8 @@ video {
   width: 46rem;
 }
 
-.w-\[50rem\] {
-  width: 50rem;
+.w-\[48rem\] {
+  width: 48rem;
 }
 
 .w-\[63rem\] {
@@ -1149,6 +1149,10 @@ video {
   font-size: 2.5rem;
 }
 
+.text-\[2\.8rem\] {
+  font-size: 2.8rem;
+}
+
 .text-\[2rem\] {
   font-size: 2rem;
 }
@@ -1181,14 +1185,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-thin {
-  font-weight: 100;
-}
-
-.font-\[100\] {
-  font-weight: 100;
 }
 
 .text-\[\#30A430\] {
@@ -1241,43 +1237,13 @@ video {
 }
 
 @font-face {
-  font-family: lorafont;
+  font-family: awesome;
 
-  src: url(my-fonts/lora/Lora-Regular.ttf);
+  src: url(my-fonts/mf_really_awesome/Mf\ Really\ Awesome.ttf);
 }
 
-.lorafont {
-  font-family: lorafont;
-}
-
-@font-face {
-  font-family: stripedisco;
-
-  src: url(my-fonts/stripedisco.ttf);
-}
-
-.stripedisco {
-  font-family: stripedisco;
-}
-
-@font-face {
-  font-family: odin;
-
-  src: url(my-fonts/odin\ rounded\ -\ bold.otf);
-}
-
-.odin {
-  font-family: odin;
-}
-
-@font-face {
-  font-family: greatcamp;
-
-  src: url(my-fonts/greatcamp.ttf);
-}
-
-.greatcamp {
-  font-family: greatcamp;
+.awesome {
+  font-family: awesome;
 }
 
 /* Hover styles for a1, hr, and b1 */
