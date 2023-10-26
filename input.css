@@ -8,7 +8,27 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@font-face {
+    font-family: GalileoFLF;
+    src: url(my-fonts/GalileoFLF-FontZillion/Fonts/galileoflf-italic.ttf);
+}
+.GalileoFLF {
+    font-family: GalileoFLF;
+}
+@font-face {
+    font-family: dubuffet;
+    src: url(my-fonts/dubuffet.rar);
+}
+.dubuffet {
+    font-family: dubuffet;
+}
+@font-face {
+    font-family: Magnolia-Script;
+    src: url(my-fonts/Magnolia-Script/ffonts.net.htm);
+}
+.Magnolia-Script {
+    font-family: Magnolia-Script;
+}
 @font-face {
     font-family: awesome;
     src: url(my-fonts/mf_really_awesome/Mf\ Really\ Awesome.ttf);
