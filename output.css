@@ -552,10 +552,6 @@ video {
   top: -6rem;
 }
 
-.m-\[5rem\] {
-  margin: 5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -584,6 +580,10 @@ video {
 
 .-mt-8 {
   margin-top: -2rem;
+}
+
+.-mt-\[1rem\] {
+  margin-top: -1rem;
 }
 
 .-mt-\[3rem\] {
@@ -718,30 +718,6 @@ video {
   margin-top: 3rem;
 }
 
-.-mt-\[1rem\] {
-  margin-top: -1rem;
-}
-
-.-mb-\[2rem\] {
-  margin-bottom: -2rem;
-}
-
-.-mb-\[5rem\] {
-  margin-bottom: -5rem;
-}
-
-.mb-\[5rem\] {
-  margin-bottom: 5rem;
-}
-
-.mt-\[5rem\] {
-  margin-top: 5rem;
-}
-
-.mt-\[rem\] {
-  margin-top: rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -806,8 +782,16 @@ video {
   height: 22rem;
 }
 
+.h-\[28\.5rem\] {
+  height: 28.5rem;
+}
+
 .h-\[29rem\] {
   height: 29rem;
+}
+
+.h-\[35rem\] {
+  height: 35rem;
 }
 
 .h-\[3rem\] {
@@ -1185,8 +1169,12 @@ video {
   font-size: 2rem;
 }
 
-.text-\[3\.5rem\] {
-  font-size: 3.5rem;
+.text-\[4\.5rem\] {
+  font-size: 4.5rem;
+}
+
+.text-\[4rem\] {
+  font-size: 4rem;
 }
 
 .text-sm {
@@ -1197,26 +1185,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[3rem\] {
-  font-size: 3rem;
-}
-
-.text-\[4rem\] {
-  font-size: 4rem;
-}
-
-.text-\[5rem\] {
-  font-size: 5rem;
-}
-
-.text-\[4\.5rem\] {
-  font-size: 4.5rem;
-}
-
-.text-\[4\.1rem\] {
-  font-size: 4.1rem;
 }
 
 .font-\[450\] {
@@ -1280,22 +1248,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[3re\] {
-  color: 3re;
-}
-
-.text-\[rem\] {
-  color: rem;
-}
-
-.text-\[4\.rem\] {
-  color: 4.rem;
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -1354,22 +1306,16 @@ video {
 
 /* Hover styles for c1, hr, and d1 */
 
+.group:hover #a1,
 .group:hover #c1,
-.group:hover #d1 {
-  color: #C79C41;
-  /* Change the text color on hover */
-  border-color: #C79C41;
-  /* Change the border color on hover */
-}
-
-/* Hover styles for e1, hr, and f1 */
-
+.group:hover #d1,
 .group:hover #e1,
 .group:hover #f1 {
   color: #C79C41;
   /* Change the text color on hover */
   border-color: #C79C41;
   /* Change the border color on hover */
+  opacity: 1;
 }
 
 /* Define the color for the list-style-type and sequential numbering */

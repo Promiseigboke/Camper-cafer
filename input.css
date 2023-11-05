@@ -45,16 +45,14 @@
     border-color: #C79C41; /* Change the border color on hover */
 }
 /* Hover styles for c1, hr, and d1 */
+.group:hover #a1,
 .group:hover #c1,
-.group:hover #d1 {
-    color: #C79C41; /* Change the text color on hover */
-    border-color: #C79C41; /* Change the border color on hover */
-}
-/* Hover styles for e1, hr, and f1 */
+.group:hover #d1,
 .group:hover #e1,
 .group:hover #f1 {
     color: #C79C41; /* Change the text color on hover */
     border-color: #C79C41; /* Change the border color on hover */
+    opacity: 1;
 }
 /* Define the color for the list-style-type and sequential numbering */
 ol.custom-list-color {
