@@ -718,6 +718,14 @@ video {
   margin-top: 3rem;
 }
 
+.mt-\[rem\] {
+  margin-top: rem;
+}
+
+.mt-\[2\.5rem\] {
+  margin-top: 2.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -790,10 +798,6 @@ video {
   height: 29rem;
 }
 
-.h-\[35rem\] {
-  height: 35rem;
-}
-
 .h-\[3rem\] {
   height: 3rem;
 }
@@ -816,6 +820,46 @@ video {
 
 .h-auto {
   height: auto;
+}
+
+.h-\[28rem\] {
+  height: 28rem;
+}
+
+.h-\[30rem\] {
+  height: 30rem;
+}
+
+.h-\[rem\] {
+  height: rem;
+}
+
+.h-\[2rem\] {
+  height: 2rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[10\] {
+  height: 10;
+}
+
+.h-\[1rem\] {
+  height: 1rem;
+}
+
+.h-\[19rem\] {
+  height: 19rem;
+}
+
+.h-\[17rem\] {
+  height: 17rem;
+}
+
+.h-\[16rem\] {
+  height: 16rem;
 }
 
 .w-16 {
@@ -1238,6 +1282,11 @@ video {
   color: rgb(199 156 96 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -1306,11 +1355,7 @@ video {
 
 /* Hover styles for c1, hr, and d1 */
 
-.group:hover #a1,
-.group:hover #c1,
-.group:hover #d1,
-.group:hover #e1,
-.group:hover #f1 {
+.group:hover .hoverable-element, .group:hover #a1 {
   color: #C79C41;
   /* Change the text color on hover */
   border-color: #C79C41;

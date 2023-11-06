@@ -45,11 +45,7 @@
     border-color: #C79C41; /* Change the border color on hover */
 }
 /* Hover styles for c1, hr, and d1 */
-.group:hover #a1,
-.group:hover #c1,
-.group:hover #d1,
-.group:hover #e1,
-.group:hover #f1 {
+.group:hover .hoverable-element, .group:hover #a1 {
     color: #C79C41; /* Change the text color on hover */
     border-color: #C79C41; /* Change the border color on hover */
     opacity: 1;
