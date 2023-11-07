@@ -9,6 +9,13 @@
 @tailwind utilities;
 
 @font-face {
+    font-family: font-awesome;
+    src: url(template/fonts/FontAwesome.otf);
+}
+.font-awesome {
+    font-family: font-awesome; 
+}
+@font-face {
     font-family: GalileoFLF;
     src: url(my-fonts/GalileoFLF-FontZillion/Fonts/galileoflf-italic.ttf);
 }
