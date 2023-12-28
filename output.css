@@ -552,6 +552,11 @@ video {
   top: -6rem;
 }
 
+.mx-\[0\.8rem\] {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -580,6 +585,10 @@ video {
 
 .-ml-\[3rem\] {
   margin-left: -3rem;
+}
+
+.-mr-\[18rem\] {
+  margin-right: -18rem;
 }
 
 .-mt-20 {
@@ -730,6 +739,38 @@ video {
   margin-top: 3rem;
 }
 
+.-mr-\[3rem\] {
+  margin-right: -3rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[1re\] {
+  margin-left: 1re;
+}
+
+.ml-\[0\.rem\] {
+  margin-left: 0.rem;
+}
+
+.ml-\[0\.4rem\] {
+  margin-left: 0.4rem;
+}
+
+.ml-\[0\.3rem\] {
+  margin-left: 0.3rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -768,6 +809,10 @@ video {
 
 .h-\[11\.4rem\] {
   height: 11.4rem;
+}
+
+.h-\[12\.5vh\] {
+  height: 12.5vh;
 }
 
 .h-\[12vh\] {
@@ -822,12 +867,56 @@ video {
   height: 7rem;
 }
 
+.h-\[8rem\] {
+  height: 8rem;
+}
+
 .h-screen {
   height: 100vh;
 }
 
-.h-\[8rem\] {
-  height: 8rem;
+.h-\[12\.vh\] {
+  height: 12.vh;
+}
+
+.h-\[1vh\] {
+  height: 1vh;
+}
+
+.h-\[13vh\] {
+  height: 13vh;
+}
+
+.h-\[15vh\] {
+  height: 15vh;
+}
+
+.h-\[18vh\] {
+  height: 18vh;
+}
+
+.h-\[1\] {
+  height: 1;
+}
+
+.h-\[13rem\] {
+  height: 13rem;
+}
+
+.h-\[rem\] {
+  height: rem;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
+}
+
+.h-\[4rem\] {
+  height: 4rem;
+}
+
+.h-\[3\.5rem\] {
+  height: 3.5rem;
 }
 
 .w-16 {
@@ -930,12 +1019,12 @@ video {
   width: 7rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-\[8rem\] {
   width: 8rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-\[59rem\] {
@@ -944,6 +1033,14 @@ video {
 
 .min-w-\[5rem\] {
   min-width: 5rem;
+}
+
+.min-w-\[rem\] {
+  min-width: rem;
+}
+
+.min-w-\[1rem\] {
+  min-width: 1rem;
 }
 
 .max-w-\[60rem\] {
@@ -1039,12 +1136,12 @@ video {
   border-bottom-width: 1rem;
 }
 
-.border-t-\[0\.6rem\] {
-  border-top-width: 0.6rem;
-}
-
 .border-t-\[0\.2rem\] {
   border-top-width: 0.2rem;
+}
+
+.border-t-\[0\.6rem\] {
+  border-top-width: 0.6rem;
 }
 
 .border-solid {
@@ -1056,24 +1153,14 @@ video {
   border-color: rgb(175 175 175 / var(--tw-border-opacity));
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
-}
-
 .border-red-700 {
   --tw-border-opacity: 1;
   border-color: rgb(185 28 28 / var(--tw-border-opacity));
 }
 
-.border-yellow-500 {
+.border-white {
   --tw-border-opacity: 1;
-  border-color: rgb(234 179 8 / var(--tw-border-opacity));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#282726\] {
@@ -1134,6 +1221,11 @@ video {
   padding: 0.5rem;
 }
 
+.py-\[0\.4rem\] {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
 .pl-\[0\.7rem\] {
   padding-left: 0.7rem;
 }
@@ -1192,6 +1284,10 @@ video {
   font-size: 1.05rem;
 }
 
+.text-\[1\.6rem\] {
+  font-size: 1.6rem;
+}
+
 .text-\[1\.7rem\] {
   font-size: 1.7rem;
 }
@@ -1244,6 +1340,30 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[1\.4rem\] {
+  font-size: 1.4rem;
+}
+
+.text-\[0\.3rem\] {
+  font-size: 0.3rem;
+}
+
+.text-\[0\.6rem\] {
+  font-size: 0.6rem;
+}
+
+.text-\[0\.4rem\] {
+  font-size: 0.4rem;
+}
+
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
+}
+
+.text-\[0rem\] {
+  font-size: 0rem;
 }
 
 .font-\[450\] {
@@ -1301,6 +1421,18 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[rem\] {
+  color: rem;
+}
+
+.text-\[0\.rem\] {
+  color: 0.rem;
 }
 
 .opacity-0 {
@@ -1409,6 +1541,25 @@ ol.custom-list-color li::before {
   color: #C79C60;
   /* Color of the custom counter marker */
   font-weight: bold;
+}
+
+.burger-container {
+  display: block;
+  overflow: hidden;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: #C79C60;
+  width: 30px;
+  height: 3px;
+  margin: 2px 0;
+  border-radius: 5rem;
 }
 
 .hover\:bg-\[\#BB8232\]:hover {

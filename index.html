@@ -56,22 +56,31 @@
     </nav>
      <!---------------------------------------- End Of Navbar Section Big screen ------------------------------------>
      <!---------------------------------------- Navbar Section Small Screen ------------------------------------>
-     <nav class="bg-black flex text-white justify-around gap-x-6 items-center h-[12vh]">
-        <header class="text-5xl text-[#C79C60] mt-3 stripedisco">
+     <nav class="bg-black text-white h-[3.5rem]">
+        <header class="flex items-center text-[#C79C60] mx-[0.8rem] py-[0.4rem] stripedisco">
             <img class="inline mr-1 mb-2.5" src="template/img/logo.png" alt="logo image">
-        <span class="GalileoFLF">Cafe House</span>
+        <span class="GalileoFLF ml-[0.3rem] text-[1.4rem]">Cafe House</span>
+        <div class="burger-container ml-auto" onclick="toggleMenu()">
+        <div class="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+            <div class="menu text-[0.5rem] flex flex-col text-white">
+                <!-- menu items go here -->
+                <li class="">
+                    <img class="inline h-[2rem] w-[1.5rem] mr-1" src="template/img/logo.png">
+                <span class="inline-block text-[0.5rem] text-[#C79C60] font-bold">HOME</span>
+                <img class="mb-[0.4rem] min-w-[1rem]" src="template/img/nav-underline.png">
+        </li>
+                <a href="#" class="hover:text-[#C79C41]">TODAY SPECIAL</a>
+                <a href="#">MENU</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
         </header>
-        <div>
-            <ul class=" w-[25rem] ">
-            <li class="mr-[4rem]">
-                <img class="inline h-[2rem] -mt-[1rem] w-[1.5rem] mr-1 -ml-[3rem]" src="template/img/logo.png">
-            <span class="inline-block text-[1rem] mt-[2rem] text-[#C79C60] font-bold">HOME</span>
-            <img class="-ml-[2.5rem] mb-[0.4rem] min-w-[5rem]" src="template/img/nav-underline.png">
-    </li>
-            <li class="text-[1rem] w-[10rem] hover:text-[#C79C41] font-bold mr-[4rem] whitespace-nowrap">TODAY SPECIAL</li>
-            <li class="text-[1rem] font-bold hover:text-[#C79C41] mr-[4rem]">MENU</li>
-            <li class="text-[1rem] font-bold hover:text-[#C79C41]">CONTACT</li>
-        </ul></div>
+        <!-- N0 2 HERE -->
+        
     </nav>
      <!---------------------------------------- End Of Navbar Section Small Screen ------------------------------------>
     <!----------------------------------------- Main Content ------------------------------------>

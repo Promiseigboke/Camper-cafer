@@ -80,3 +80,19 @@ ol.custom-list-color {
     color: #C79C60; /* Color of the custom counter marker */
     font-weight: bold;
   }
+  .burger-container {
+    display: block;
+    overflow: hidden;
+  }
+.burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.bar {
+    background-color: #C79C60;
+    width: 30px;
+    height: 3px;
+    margin: 2px 0;
+    border-radius: 5rem;
+}
