@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@iconify/json": "^2.2.162",
+    "@iconify/tailwind": "^0.1.4",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"

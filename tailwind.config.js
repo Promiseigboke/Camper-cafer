@@ -1,5 +1,5 @@
 // tailwind.config.js
-
+const { addDynamicIconSelectors } = require('@iconify/tailwind');
 module.exports = {
   content: ["./*.html"], // Update the content path to match your HTML file location
   theme: {
@@ -8,7 +8,10 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+		// Iconify plugin
+		addDynamicIconSelectors(),
+	],
 };
 
 
