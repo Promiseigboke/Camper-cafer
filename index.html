@@ -60,38 +60,33 @@
         <header class="flex items-center text-[#C79C60] mx-[0.8rem] py-[0.4rem] stripedisco">
             <img class="inline mr-1 mb-2.5" src="template/img/logo.png" alt="logo image">
         <span class="GalileoFLF ml-[0.3rem] text-[1.4rem]">Cafe House</span>
-        <div class="burger-container ml-auto" onclick="toggleMenu()">
-        <div class="burger">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+        <div class="ml-auto">
+            <!-- Hamburger Icon -->
+            <div class="cursor-pointer" onclick="toggleMenu()">
+            <span class="icon-[ci--hamburger-md] h-6 w-6"></span>
             </div>
-            <div class="menu text-[0.5rem] flex flex-col text-white">
-                <!-- menu items go here -->
-                <li class="">
-                    <img class="inline h-[2rem] w-[1.5rem] mr-1" src="template/img/logo.png">
-                <span class="inline-block text-[0.5rem] text-[#C79C60] font-bold">HOME</span>
-                <img class="mb-[0.4rem] min-w-[1rem]" src="template/img/nav-underline.png">
-        </li>
-                <a href="#" class="hover:text-[#C79C41]">TODAY SPECIAL</a>
-                <a href="#">MENU</a>
-                <a href="#">CONTACT</a>
-            </div>
-        </div>
-        </header>
-        <!-- N0 2 HERE -->
-        
+    <!-- Dropdown Menu with Black Glassy Background -->
+    <div id="menu" class="absolute hidden bg-black bg-opacity-70 p-4 text-white right-2 transition-all duration-500">
+        <!-- Menu Items -->
+        <a href="#" class="block py-2 hover:text-[#C79C41] text-[0.8rem]">HOME</a>
+        <a href="#" class="block py-2 hover:text-[#C79C41] text-[0.8rem]">TODAY SPECIAL</a>
+        <a href="#" class="block py-2 hover:text-[#C79C41] text-[0.8rem]">MENU</a>
+        <a href="#" class="block py-2 hover:text-[#C79C41] text-[0.8rem]">CONTACT</a>
+    </div>
+</div>
+        </header>      
     </nav>
      <!---------------------------------------- End Of Navbar Section Small Screen ------------------------------------>
     <!----------------------------------------- Main Content ------------------------------------>
     <!-------------------------------------- Begining Of First Section -------------------------->
     <!------------------------------------------ Body ------------------------------------------->
     <div id="first-section" class="flex flex-col items-center bg-[#282726] h-[49.5rem]">
-        <div class="flex justify-around w-[65rem]">
-        <img src="template/img/light.png">
-        <img class="" src="template/img/light.png">
-        <img class="" src="template/img/light.png">
-        </div>
+        <div class="flex justify-around lg:w-[65rem]">
+            <img src="template/img/light.png" class=" ">
+            <img src="template/img/light.png" class="w-full lg:w-auto hidden md:block">
+            <img src="template/img/light.png" class="w-full lg:w-auto hidden lg:block">
+          </div>
+          
         <div class="flex gap-x-6 -mt-20">
         <img class="h-3 w-16 mt-[1rem]" src="template/img/header-line.png">
         <p class="GalileoFLF text-white text-[4.5rem] -mt-8">Welcome To</p>
