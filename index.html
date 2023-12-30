@@ -67,7 +67,7 @@
             </div>
         
             <!-- Dropdown Menu with Black Glassy Background -->
-            <div id="menu" class="absolute hidden bg-black bg-opacity-70 p-4 text-white right-2 transition-all duration-500">
+            <div id="menu" class="absolute hidden bg-black bg-opacity-70 p-4 text-white right-2 rounded-sm">
                 <!-- Menu Items -->
                 <a href="#" class="block py-2 hover:text-[#C79C41] text-[0.8rem]">HOME</a>
                 <a href="#" class="block py-2 hover:text-[#C79C41] text-[0.8rem]">TODAY SPECIAL</a>
@@ -88,14 +88,25 @@
             <img src="template/img/light.png" class="w-full lg:w-auto hidden lg:block">
           </div>
           <!-- Welcome To -->
-        <div class="flex gap-x-6 -mt-20">
+        <div class="flex gap-x-6 -mt-20 mb-[1.3rem]">
         <img class="w-[2rem] md:w-[4rem] lg:w-[4.5rem] h-[0.6rem] md:h-[0.8rem] lg:h-[1rem] -mt-[1rem] md:-mt-[0.3rem] lg:mt-[0.7rem]" src="template/img/header-line.png">
-        <p class="GalileoFLF text-white text-[2rem] md:text-[3rem] lg:text-[4.5rem] -mt-8">Welcome To</p>
+        <p class="GalileoFLF text-white text-[2rem] md:text-[3rem] lg:text-[4.7rem] -mt-8">Welcome To</p>
         <img class="w-[2rem] md:w-[4rem] lg:w-[4.5rem] h-[0.6rem] md:h-[0.8rem] lg:h-[1rem] -mt-[1rem] md:-mt-[0.3rem] lg:mt-[0.7rem]" src="template/img/header-line.png">
         </div>
-        <p class="Magnolia-Script text-[2rem] text-[#C79C60] lorafont -mt-[1rem] ">CAFE <br>HOUSE</p>
-        <p class="text-[#949494] w-[40rem] text-sm text-justify">Cafe House template is a mobile-friendly responsive Tailwindcss layout by Promise igboke. 
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <!-- Cafe House small screen -->
+        <!-- Cafe -->
+        <div style="height: 100px; display: flex; align-items: center;">
+            <p class="Magnolia-Script md:hidden lg:hidden text-[3rem] text-[#C79C60] lorafont -mt-[1rem]" style="line-height: 1;">CAFE</p>
+        </div>
+        <!-- House -->
+        <div style="height: 100px; display: flex; align-items: center;">
+            <p class="Magnolia-Script md:hidden lg:hidden text-[3rem] text-[#C79C60] lorafont -mt-[1rem]" style="line-height: 2;">HOUSE</p>
+        </div>
+        
+         <!-- Cafe House large screen -->
+        <p class="Magnolia-Script hidden md:block lg:block text-[4.5rem] text-[#C79C60] lorafont -mt-[3rem]">CAFE HOUSE</p>
+        <p class="text-[#949494] w-[50rem] text-[1.05rem] text-justify">Cafe House template is a mobile-friendly responsive layout made by<span class="text-[#C79C41]"> Promise Igboke</span> 
+        It is a tailwindcss version of <span class="text-[#C79C41]">Templatemo's</span>mobile-friendly responsive camper-cafe design with a <span class="text-[#C79C41]">Bootstrap v3.3.5 </span>layout</p>
          <div class="relative flex items-center justify-center mt-7">
             <img class="" src="template/img/tm-brown-button.png" alt="tm-brown-button">
             <p class="text-[#C79C60] text-xl absolute hover:text-[#FFFFFF]">DETAILS</p>
