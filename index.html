@@ -31,13 +31,13 @@
 <body>
     <!---------------------------------------- Preloader --------------------------------------->
 <div class="flex preloader justify-center items-center h-screen">
-<div class="w-[8rem] h-[8rem] border-t-[0.2rem] border-red-700 border-solid rounded-full animate-spin">
+<div class="w-[8rem] h-[8rem] border-t-[0.2rem] border-black-700 border-solid rounded-full animate-spin">
 </div>
 </div>
     <!---------------------------------------- End Preloader ----------------------------------->
     <div id="content" class="hidden">
     <!---------------------------------------- Navbar Section Big screen ------------------------------------>
-    <nav class="bg-black flex text-white justify-around items-center h-[12vh] hidden">
+    <nav class="bg-black flex text-white justify-around items-center h-[12vh] hidden lg:flex">
         <header class="text-5xl text-[#C79C60] mt-3 stripedisco">
             <img class="inline mr-1 mb-2.5" src="template/img/logo.png" alt="logo image">
         <span class="GalileoFLF">Cafe House</span>
@@ -56,7 +56,7 @@
     </nav>
      <!---------------------------------------- End Of Navbar Section Big screen ------------------------------------>
      <!---------------------------------------- Navbar Section Small Screen ------------------------------------>
-     <nav class="bg-black text-white h-[3.5rem] ">
+     <nav class="bg-black text-white h-[3.5rem] lg:hidden">
         <header class="flex items-center text-[#C79C60] mx-[0.8rem] py-[0.4rem] stripedisco">
             <img class="inline mr-1 mb-2.5" src="template/img/logo.png" alt="logo image">
         <span class="GalileoFLF ml-[0.3rem] text-[1.4rem]">Cafe House</span>
@@ -81,7 +81,7 @@
     <!----------------------------------------- Main Content ------------------------------------>
     <!-------------------------------------- Begining Of First Section -------------------------->
     <!------------------------------------------ Body ------------------------------------------->
-    <div id="first-section" class="flex flex-col items-center bg-[#282726] h-[49.5rem]">
+    <div id="first-section" class="flex flex-col items-center bg-[#282726] h-[60rem]">
         <div class="flex justify-around lg:w-[65rem]">
             <img src="template/img/light.png" class=" ">
             <img src="template/img/light.png" class="w-full lg:w-auto hidden md:block">
@@ -105,21 +105,23 @@
         
          <!-- Cafe House large screen -->
         <p class="Magnolia-Script hidden md:block lg:block text-[4.5rem] text-[#C79C60] lorafont -mt-[3rem]">CAFE HOUSE</p>
-        <p class="text-[#949494] w-[50rem] text-[1.05rem] text-justify">Cafe House template is a mobile-friendly responsive layout made by<span class="text-[#C79C41]"> Promise Igboke</span> 
-        It is a tailwindcss version of <span class="text-[#C79C41]">Templatemo's</span>mobile-friendly responsive camper-cafe design with a <span class="text-[#C79C41]">Bootstrap v3.3.5 </span>layout</p>
+        <!-- Cafe House description -->
+        <p class="text-[#949494] w-[17rem] md:w-[30rem] lg:w-[50rem] text-[0.8rem] md:text-[0.9rem] lg:text-[1.05rem] text-justify ">Cafe House template is a mobile-friendly responsive layout made by<span class="text-[#C79C41]"> Promise Igboke.</span> 
+        It is a tailwindcss version of <span class="text-[#C79C41]">Templatemo's</span> mobile-friendly responsive camper-cafe design with a <span class="text-[#C79C41]">Bootstrap v3.3.5 </span>layout. It is my redesign of my freecodecamp second project.</p>
+        <!-- Detail Button -->
          <div class="relative flex items-center justify-center mt-7">
-            <img class="" src="template/img/tm-brown-button.png" alt="tm-brown-button">
-            <p class="text-[#C79C60] text-xl absolute hover:text-[#FFFFFF]">DETAILS</p>
+            <img class="w-[9rem] md:w-[11rem] lg:w-[13rem]" src="template/img/tm-brown-button.png" alt="tm-brown-button">
+            <p class="text-[#C79C60] text-[0.8rem] md:text-[1rem] lg:text-[1.3rem] absolute hover:text-[#FFFFFF]">DETAILS</p>
             </div>
             
-            <div class="mx-auto -mt-[5rem]">
-            <img class="min-w-[59rem] object-cover max-w-[60rem]" src="template/img/table-set.png" alt="table-set">
+            <div class="mx-auto -mt-[1rem]">
+            <img class="lg:min-w-[67rem] object-cover lg:max-w-[68rem]" src="template/img/table-set.png" alt="table-set">
             </div>
     </div>
     <!-------------------------------------- End Of First Section ------------------------------>
     <!-------------------------------------- Start Of Second Section --------------------------->
     <div class="bg-[#E4E4E4] flex flex-col items-center">
-    <div class="mt-[10rem] w-[66rem]">
+    <div class="mt-[25rem] w-[66rem]">
         <h1 class="awesome odin text-[#C79C60] text-[2.5rem]">The Best Coffee for you</h1>
         <h1 class="text-[2.2rem] mb-[1rem]">Cafe House</h1>
         <div class="flex mt-1">
