@@ -80,4 +80,18 @@ ol.custom-list-color {
     color: #C79C60; /* Color of the custom counter marker */
     font-weight: bold;
   }
-  
+.popular-img1 {
+    @apply bg-[url('template/img/popular-1.jpg')] bg-no-repeat bg-cover;
+}
+.popular-img2 {
+    @apply bg-[url('template/img/popular-2.jpg')] bg-no-repeat bg-cover;
+}
+.popular-img3 {
+    @apply bg-[url('template/img/popular-3.jpg')] bg-no-repeat bg-cover;
+}
+.popular-img-bg {
+    @apply bg-[url('template/img/popular-item-bg.png')] bg-no-repeat bg-cover;
+}
+.popular-img-hover {
+    @apply hover:bg-[url('template/img/popular-item-bg-hover.png')] bg-no-repeat bg-cover;
+}
