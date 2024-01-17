@@ -570,6 +570,10 @@ video {
   z-index: 50;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .m-\[3rem\] {
   margin: 3rem;
 }
@@ -577,6 +581,11 @@ video {
 .mx-\[0\.8rem\] {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
+}
+
+.mx-\[1rem\] {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mx-auto {
@@ -597,16 +606,16 @@ video {
   margin-left: -2.5rem;
 }
 
-.-ml-\[2rem\] {
-  margin-left: -2rem;
-}
-
-.-ml-\[30rem\] {
-  margin-left: -30rem;
-}
-
 .-ml-\[3rem\] {
   margin-left: -3rem;
+}
+
+.-ml-\[8\.5rem\] {
+  margin-left: -8.5rem;
+}
+
+.-ml-\[8rem\] {
+  margin-left: -8rem;
 }
 
 .-mt-20 {
@@ -669,6 +678,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-\[2rem\] {
+  margin-bottom: 2rem;
+}
+
 .mb-\[3rem\] {
   margin-bottom: 3rem;
 }
@@ -681,12 +694,12 @@ video {
   margin-left: 0.5rem;
 }
 
-.ml-\[2\.7rem\] {
-  margin-left: 2.7rem;
+.ml-\[1rem\] {
+  margin-left: 1rem;
 }
 
-.ml-\[2rem\] {
-  margin-left: 2rem;
+.ml-\[2\.7rem\] {
+  margin-left: 2.7rem;
 }
 
 .ml-\[8rem\] {
@@ -701,16 +714,16 @@ video {
   margin-right: 0.25rem;
 }
 
+.mr-\[0\.1rem\] {
+  margin-right: 0.1rem;
+}
+
 .mr-\[1rem\] {
   margin-right: 1rem;
 }
 
 .mr-\[4rem\] {
   margin-right: 4rem;
-}
-
-.mr-\[6rem\] {
-  margin-right: 6rem;
 }
 
 .mt-1 {
@@ -733,8 +746,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-\[1\.7rem\] {
-  margin-top: 1.7rem;
+.mt-\[1\.5rem\] {
+  margin-top: 1.5rem;
 }
 
 .mt-\[1rem\] {
@@ -757,56 +770,12 @@ video {
   margin-top: 6rem;
 }
 
-.-ml-\[5rem\] {
-  margin-left: -5rem;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[1rem\] {
-  margin-left: 1rem;
-}
-
-.-ml-\[8rem\] {
-  margin-left: -8rem;
-}
-
-.-ml-\[9rem\] {
-  margin-left: -9rem;
-}
-
-.-ml-\[8\.5rem\] {
-  margin-left: -8.5rem;
-}
-
-.mt-\[1\.rem\] {
-  margin-top: 1.rem;
-}
-
-.mt-\[1\.5rem\] {
-  margin-top: 1.5rem;
-}
-
-.ml-\[3rem\] {
-  margin-left: 3rem;
-}
-
 .mb-\[\] {
   margin-bottom: ;
 }
 
-.mb-\[rem\] {
-  margin-bottom: rem;
-}
-
-.mb-\[2rem\] {
-  margin-bottom: 2rem;
-}
-
-.mt-\[\] {
-  margin-top: ;
+.mb-\[0\.5rem\] {
+  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -885,10 +854,6 @@ video {
   height: 2.8rem;
 }
 
-.h-\[20rem\] {
-  height: 20rem;
-}
-
 .h-\[22rem\] {
   height: 22rem;
 }
@@ -921,6 +886,10 @@ video {
   height: 5rem;
 }
 
+.h-\[60rem\] {
+  height: 60rem;
+}
+
 .h-\[6rem\] {
   height: 6rem;
 }
@@ -945,32 +914,16 @@ video {
   height: 100vh;
 }
 
-.h-\[0rem\] {
-  height: 0rem;
-}
-
-.h-\[40rem\] {
-  height: 40rem;
-}
-
 .h-\[rem\] {
   height: rem;
 }
 
-.h-\[50rem\] {
-  height: 50rem;
+.h-\[55rem\] {
+  height: 55rem;
 }
 
-.h-\[70rem\] {
-  height: 70rem;
-}
-
-.h-\[80rem\] {
-  height: 80rem;
-}
-
-.h-\[60rem\] {
-  height: 60rem;
+.h-\[57rem\] {
+  height: 57rem;
 }
 
 .w-6 {
@@ -1017,12 +970,12 @@ video {
   width: 23rem;
 }
 
-.w-\[25rem\] {
-  width: 25rem;
+.w-\[24\.5rem\] {
+  width: 24.5rem;
 }
 
-.w-\[28rem\] {
-  width: 28rem;
+.w-\[25rem\] {
+  width: 25rem;
 }
 
 .w-\[2rem\] {
@@ -1039,10 +992,6 @@ video {
 
 .w-\[5rem\] {
   width: 5rem;
-}
-
-.w-\[65rem\] {
-  width: 65rem;
 }
 
 .w-\[6rem\] {
@@ -1067,14 +1016,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[40rem\] {
-  width: 40rem;
-}
-
-.w-\[0rem\] {
-  width: 0rem;
 }
 
 .min-w-\[15rem\] {
@@ -1118,6 +1059,10 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1176,6 +1121,21 @@ video {
 
 .gap-y-\[2rem\] {
   row-gap: 2rem;
+}
+
+.gap-x-\[\] {
+  -moz-column-gap: ;
+       column-gap: ;
+}
+
+.gap-x-\[2rem\] {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.gap-x-\[5rem\] {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .scroll-smooth {
@@ -1311,6 +1271,10 @@ video {
 .py-\[0\.4rem\] {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
+}
+
+.pb-\[8rem\] {
+  padding-bottom: 8rem;
 }
 
 .pl-\[0\.3rem\] {
@@ -1870,8 +1834,21 @@ ol.custom-list-color li::before {
     top: -7.5rem;
   }
 
+  .lg\:my-\[0\.5rem\] {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   .lg\:-ml-\[0\.5rem\] {
     margin-left: -0.5rem;
+  }
+
+  .lg\:-ml-\[2rem\] {
+    margin-left: -2rem;
+  }
+
+  .lg\:-ml-\[30rem\] {
+    margin-left: -30rem;
   }
 
   .lg\:ml-\[0rem\] {
@@ -1882,12 +1859,28 @@ ol.custom-list-color li::before {
     margin-left: 1rem;
   }
 
+  .lg\:ml-\[2rem\] {
+    margin-left: 2rem;
+  }
+
   .lg\:ml-\[4rem\] {
     margin-left: 4rem;
   }
 
+  .lg\:mr-\[1rem\] {
+    margin-right: 1rem;
+  }
+
+  .lg\:mr-\[6rem\] {
+    margin-right: 6rem;
+  }
+
   .lg\:mt-\[0\.7rem\] {
     margin-top: 0.7rem;
+  }
+
+  .lg\:mt-\[1\.7rem\] {
+    margin-top: 1.7rem;
   }
 
   .lg\:mt-\[12rem\] {
@@ -1904,30 +1897,6 @@ ol.custom-list-color li::before {
 
   .lg\:mt-\[3rem\] {
     margin-top: 3rem;
-  }
-
-  .lg\:mt-\[1\.7rem\] {
-    margin-top: 1.7rem;
-  }
-
-  .lg\:-ml-\[30rem\] {
-    margin-left: -30rem;
-  }
-
-  .lg\:mr-\[6rem\] {
-    margin-right: 6rem;
-  }
-
-  .lg\:-ml-\[2rem\] {
-    margin-left: -2rem;
-  }
-
-  .lg\:ml-\[2rem\] {
-    margin-left: 2rem;
-  }
-
-  .lg\:mr-\[1rem\] {
-    margin-right: 1rem;
   }
 
   .lg\:block {
@@ -1966,6 +1935,10 @@ ol.custom-list-color li::before {
     height: 1rem;
   }
 
+  .lg\:h-\[20rem\] {
+    height: 20rem;
+  }
+
   .lg\:h-\[29rem\] {
     height: 29rem;
   }
@@ -1984,14 +1957,6 @@ ol.custom-list-color li::before {
 
   .lg\:h-\[7rem\] {
     height: 7rem;
-  }
-
-  .lg\:h-\[22rem\] {
-    height: 22rem;
-  }
-
-  .lg\:h-\[20rem\] {
-    height: 20rem;
   }
 
   .lg\:w-40 {
@@ -2024,6 +1989,10 @@ ol.custom-list-color li::before {
 
   .lg\:w-\[26\.5rem\] {
     width: 26.5rem;
+  }
+
+  .lg\:w-\[28rem\] {
+    width: 28rem;
   }
 
   .lg\:w-\[2rem\] {
@@ -2078,10 +2047,6 @@ ol.custom-list-color li::before {
     width: auto;
   }
 
-  .lg\:w-\[28rem\] {
-    width: 28rem;
-  }
-
   .lg\:w-full {
     width: 100%;
   }
@@ -2128,6 +2093,11 @@ ol.custom-list-color li::before {
     padding: 0.6rem;
   }
 
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .lg\:text-\[1\.05rem\] {
     font-size: 1.05rem;
   }
@@ -2159,5 +2129,9 @@ ol.custom-list-color li::before {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
   }
 }
